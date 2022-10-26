@@ -1,51 +1,10 @@
-h1 {
-    text-align: center;
-}
-
-.main-block {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-}
-
 .caption-block {
     display: inline-grid;
-    border: 2px solid black;
-    margin:1%;
-
-    text-align: left;
-}
-
-.caption-header {
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    margin: 0 0 2% 0;
-    text-align: center;
-    width: 30%;
-    left: 70%;
-    position: relative;
-}
-
-
-@media (min-width: 992px)  {
-    .caption-block {
-        width:30%;
-
-    }
+    justify-items: end;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .caption-block {
-        width:46%;
-    }
-    
-    #caption-3 {
-        width: 95%;
-    }
-}
-
-@media (max-width: 768px) {
-    .caption-block {
-        width:94%;
+    .spacer {
+        display: inline-grid;
     }
 }
