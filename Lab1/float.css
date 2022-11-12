@@ -2,13 +2,11 @@
     display: inline-block;
 }
 
-.caption-header {
-    left: 70%;
-    position: relative;
+.main-block {
+    float: left;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-    .spacer {
-        display: inline-block;
-    }
+.caption-header {
+    float: right;
 }
+

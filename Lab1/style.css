@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
 h1 {
     text-align: center;
 }
@@ -7,19 +13,20 @@ h1 {
     text-align: center;
 }
 
-.caption-block {
+.container {
+    padding: 5px;
     border: 2px solid black;
-    margin-top: 1%;
-    margin-bottom: 1%;
     text-align: left;
 }
 
+.caption-block {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 .caption-header {
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
     margin: 0 0 2% 0;
-    text-align: center;
-    width: 30%;
+    text-align: right;
 }
 
 
