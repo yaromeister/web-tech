@@ -1,3 +1,4 @@
+console.log("Call method ArrayMethod() to see some magic.")
 
 function ArrayMethod() {
     let names = ["Bill", "John", "Jen", "Jason", "Paul", "Frank", "Steven", "Larry", "Paula", "Laura", "Jim"];
